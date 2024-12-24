@@ -28,7 +28,7 @@ console.log(id == anotherId);
 //lets take an example 
 let myName= "abhishek"
 let anotherName = myName
-anotherName = "Ankusha"
+anotherName = "abhi"
 
 console.log(anotherName);
 console.log(myName);
@@ -56,3 +56,4 @@ console.log(userOne.upi);
 //so as we are using a non primitive data type so it uses heap where we get the actual referencing of
 // the variable so once we sets the reference of the first variable with the second variable
 // then if we change the any content of the object then the content of the first object will as change 
+

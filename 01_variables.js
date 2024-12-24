@@ -16,7 +16,7 @@ console.table([accountId,accountEmail,accountPassword,accountCity,chutiya]);
 /* we will never use var because it has got scope issues(block scope and function scope) we will always use let for normal variable 
 usuage and const for non-updation variable */
 
-//if we declare a variable but do not assign a value to it then the out will be undefined
+//if we declare a variable but do not assign a value to it then the output will be undefined
 
 
 
