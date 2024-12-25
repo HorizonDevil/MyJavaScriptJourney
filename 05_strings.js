@@ -32,8 +32,17 @@ console.log(newString);
 // that means from 0th to 3th idexed character will be shown
 
 const anotherString = gameName.slice(-7, 4);
-// the interesting thing about this is it can accept negative values
+// the interesting thing about this is it can accept negative values but substring doesnt
 console.log(anotherString);
+
+const newStringOne = '       abhishek          '
+console.log(newStringOne.trim());
+console.log(newStringOne);
+// trim() function is used when we wanna cutoff the accidently given extra spaces as input data
+// it only cancel out white spaces and line characters
+
+const url = ""
+
 
 
 
