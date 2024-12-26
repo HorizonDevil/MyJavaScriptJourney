@@ -41,7 +41,19 @@ console.log(newStringOne);
 // trim() function is used when we wanna cutoff the accidently given extra spaces as input data
 // it only cancel out white spaces and line characters
 
-const url = ""
+
+
+//if we want to replace something with something else then we use replace function as shown in above example
+const url = " https://abhishek.com/abhishek%20jana"
+console.log(url.replace("%20", "-"));
+
+//if we want to ask whether a particular word is there or not we can use include function
+
+console.log(url.includes('abhishek'));
+
+// if we want to split an string based on something - or spaces or anthing we can use split function
+console.log(gameName.split('-'));
+//as we can see the output we got is in the form of an array
 
 
 
