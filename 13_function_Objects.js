@@ -40,3 +40,4 @@ console.log(returnSecondValue(MynewArray));
 //instead of this we could have directly pass array
 /* console.log(returnSecondValue([100,200,300,400,500]));
 
+*/
