@@ -6,3 +6,13 @@
 (function chai(){
     console.log("db connected");
 })();
+//while working with the immediately invoked functional expression sometime the function fails to recognise when to stop the function
+//so for that case we always puts a semi collan (;) at the end of it
+(() => {
+    console.log(`DB connected`);
+})();
+
+//suppose we want to pass a variable inside that function what ami i suppose to do
+((name) => {
+    console.log(`DB connected ${name}`);
+})("abhishek")
