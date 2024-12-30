@@ -16,7 +16,7 @@ if(score > 100){
 const balance = 1000
 if(balance > 500) console.log("less"),console.log(`more`); //shorthand notation
 
-
+//else if satatement
 const balance1 = 500
 if(balance1 < 500){
     console.log(`less`);
