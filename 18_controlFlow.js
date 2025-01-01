@@ -80,6 +80,28 @@ switch (month) {
         break;
 }
  
- 
+ // truthy value false , 0, -0, BigInt 0n, null, undefined, NaN
+ // false value '0', 'false', " ", [], {}, function(){}      
 
+//how to check that the array is empty
+/*if(userEmail.lenght === 0){
+    console.log("array is empty")
+} */
 
+//how to check that is object is empty or not
+
+const emptyObject ={}
+if(Object.keys(emptyObject).length === 0){
+    console.log(`object is empty`);
+}
+
+//nullish coalescing operator (??): null undefined
+
+let val1;
+val1 = 5 ?? 10
+
+//suppose during dataBase call i m get 2 values either null or suppose 5 then it will give me obvious value 5
+//but for the above case it will return 5 which ever value will come first will be given
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
